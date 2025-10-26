@@ -1,41 +1,51 @@
-# Prerequisites
-*.d
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.ipynb_checkpoints
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.conda/
+*.env
 
-# Precompiled Headers
-*.gch
-*.pch
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Linker files
-*.ilk
+# --- Data files ---
+data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.dat
+*.sav
+*.h5
+*.zip
 
-# Debugger Files
-*.pdb
+# --- Outputs / Plots / Figures ---
+figures/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# --- Logs / Temporary files ---
+*.log
+*.tmp
+*.bak
+*.orig
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
