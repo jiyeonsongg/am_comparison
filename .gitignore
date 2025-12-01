@@ -21,7 +21,6 @@ ENV/
 *.swo
 
 # --- Data files ---
-data/
 *.csv
 *.tsv
 *.xlsx
