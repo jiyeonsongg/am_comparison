@@ -33,7 +33,6 @@ data/
 *.zip
 
 # --- Outputs / Plots / Figures ---
-figures/
 *.png
 *.jpg
 *.jpeg
